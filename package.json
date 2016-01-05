@@ -1,0 +1,24 @@
+{
+  "name": "screeps-perf",
+  "version": "0.0.0",
+  "description": "Drop in, zero configuration, performance improvment lib for Screeps.",
+  "main": "screeps-perf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdborton/screeps-perf.git"
+  },
+  "keywords": [
+    "screeps",
+    "screeps-perf",
+    "performance"
+  ],
+  "author": "Gary Borton <gdborton@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdborton/screeps-perf/issues"
+  },
+  "homepage": "https://github.com/gdborton/screeps-perf#readme"
+}
