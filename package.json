@@ -1,6 +1,6 @@
 {
   "name": "screeps-perf",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Drop in, zero configuration, performance improvment lib for Screeps.",
   "main": "screeps-perf.js",
   "scripts": {
