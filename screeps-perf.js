@@ -19,6 +19,23 @@ module.exports = function(options) {
       lastMemoryCleanUp: Game.time
     };
 
+    /**
+     * Creep method optimizations
+     */
+    Creep.prototype.getActiveBodyparts = function (type) {
+      let count = 0;
+      for (let i = this.body.length; i-- > 0;) {
+        if (this.body[i].hits > 0) {
+          if (this.body[i].type == type) {
+            count++;
+          }
+        } else {
+          break;
+        }
+      }
+      return count;
+    };
+
     if (options.speedUpArrayFunctions || options.speedUpArrayFunctions === undefined) {
       Array.prototype.filter = function(callback, thisArg) {
         var results = [];
